@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    width: 400px;
+    padding: 40px;
+    background: #fff; /* White background */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #333; /* Dark text color */
+    text-align: center;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #555; /* Text color */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-row input::placeholder {
+    padding-left: 5px; /* Add padding to the placeholder */
+    color: #999; /* Placeholder text color */
+}
+
+.form-row p {
+    margin: 5px 0 0; /* Adjust error message margin */
+    color: #ff0000; /* Error message color */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #552424; /* Dark red button color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #701818; /* Lighter red on hover */
+}
+
+a {
+    color: #333; /* Link text color */
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+a:hover {
+    color: #000; /* Darker text color on hover */
+}
